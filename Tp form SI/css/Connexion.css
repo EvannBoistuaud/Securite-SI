@@ -1,0 +1,148 @@
+body {
+    margin: 0 auto;
+    font-family: Arial;
+    background: #3f4c6b;
+    background: -webkit-linear-gradient(0deg, #3f4c6b 0%, #606c88 100%);
+    background: linear-gradient(0deg, #3f4c6b 0%, #606c88 100%);
+}
+
+header{
+    background: #54565b;
+    background: -webkit-linear-gradient(0deg, #363636 0%, #54565b 100%);
+    background: linear-gradient(0deg, #363636 0%, #54565b 100%);
+    width: 100% auto;
+    height: 100px;
+    padding: 10px;
+    margin-bottom: 50px;
+    overflow: hidden;
+}
+header a{
+    color: lightskyblue;
+    text-decoration: none;
+    float: right;
+    margin-right: 20px;
+    font-size: 40px;
+    
+}
+#head{
+    overflow: hidden;
+}
+#menu{
+    float: left;
+    text-align: center;
+}
+#flecheMenu{
+    height: 100%;
+}
+#link{
+    float: right;
+    text-align: center;
+    height: 50px;
+    padding: 20 0 20 0;
+}
+
+input:not(#submit, .check) {
+    font-size: 16px;
+    font-size: max(16px, 1em);
+    font-family: inherit;
+    padding: 0.25em 0.5em;
+    background-color: transparent;
+    border: 2px solid var(--input-border);
+    border-bottom: 2px solid white;
+    color: white;
+    outline: none;
+}
+
+#submit {
+    width: 100px;
+    height: 50px;
+    font-size: 20px;
+    font-size: max(16px, 1em);
+    font-family: inherit;
+    padding: 0.25em 0.5em;
+    background-color: transparent;
+    border: 2px solid var(--input-border);
+    border: 2px solid white;
+    color: white;
+    border-radius: 15%;
+}
+
+#submit:hover {
+    background-color: #363636;
+    border-color: #cccccc;
+    color: #cccccc;
+}
+
+#submit:active {
+    background-color: #cccccc;
+    border-color: #363636;
+    color: #363636;
+}
+
+textarea {
+    resize: none;
+    font-size: 16px;
+    font-size: max(16px, 1em);
+    font-family: inherit;
+    padding: 0.25em 0.5em;
+    background-color: transparent;
+    border: 2px solid var(--input-border);
+    border-bottom: 2px solid white;
+    color: white;
+    outline: none;
+
+}
+
+select {
+    font-size: 16px;
+    font-size: max(16px, 1em);
+    font-family: inherit;
+    padding: 0.25em 0.5em;
+    background-color: transparent;
+    border: 2px solid var(--input-border);
+    border-bottom: 2px solid white;
+    color: white;
+    outline: none;
+}
+
+select option {
+    color: #363636;
+}
+
+#formulaire {
+    margin: 0 auto;
+    width: 500px;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    background: #54565b;
+    background: -webkit-linear-gradient(0deg, #54565b 0%, #363636 100%);
+    background: linear-gradient(0deg, #54565b 0%, #363636 100%);
+}
+
+input {
+    text-align: center;
+    margin: 20px;
+}
+
+label:not(.point) {
+
+    text-decoration: underline;
+    font-size: 25px;
+}
+
+label {
+    font-weight: bolder;
+    font-size: 20px;
+    color: #cccccc;
+}
+
+p {
+    font-weight: bolder;
+    color: #cccccc;
+}
+
+h1 {
+    color: #cccccc;
+    text-decoration: underline;
+}

@@ -1,0 +1,11 @@
+1) télécharger wamp, et le lancer
+
+2) mettez les dossiers télécherger dans le dossiers "C:\wamp64\www\php"
+
+2) a partir de wamp, lancez phpmyadmin, avec mysql ou mariadb selon vos mots de passe et compte utilisateur
+
+3) créez une base de donnée appelée "formulaire", utilisez le bouton importer affin d'inserer la base de donnée "formulaire.sql" dans le dossiers zip
+
+4)modifiez le doccument bdd.php affin d'addapter "$dbpass" et "$dbuser" avec respectivement votre mot de passe et votre compte utilisateur
+
+5) utilisez le localhost de wamp et ouvrrez le fichier index.php
